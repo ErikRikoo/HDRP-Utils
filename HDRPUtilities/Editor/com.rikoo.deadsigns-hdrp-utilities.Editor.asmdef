@@ -1,0 +1,18 @@
+{
+    "name": "com.rikoo.deadsigns-hdrp-utilities.Editor",
+    "references": [
+        "GUID:726cdbd61d24d4548bba9e9d76246a9d",
+        "GUID:78bd2ddd6e276394a9615c203e574844"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

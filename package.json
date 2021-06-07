@@ -1,0 +1,9 @@
+{
+  "name": "com.rikoo.deadsigns-hdrp-utils",
+  "displayName": "Dead Signs HDRP Utilities",
+  "version": "0.1.0",
+  "description": "The package which contains all the HDRP utilities used in Dead Signs",
+  "keywords": [
+    "utility"
+  ]
+}

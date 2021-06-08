@@ -47,6 +47,25 @@ follow this steps:
 - Let him refresh
 - Package should be updated
 
+## Contents
+
+### Rendering Layer Utilities
+In order to handle rendering layer with ease, we added two utilities:
+- RenderingLayerWrapper which is just a Scriptable Iject that wraps an uint(te rendering layer index) 
+which goes from 0 to 31
+- RenderingLayerEnabler that takes a Wrapper and when enabled change the rendering layer of the gameobject 
+Renderer. It also remove it when disabled.
+
+You can use both of them to change easily rendering layer of an object when needed and 
+then add custom rendering to it using the RenderingLayerPass.
+
+### RenderingLayerPass
+This custom pass allows you to run a special material on object with a specific rendering layer.
+To do:
+- Add the RenderingLayerPass to a custom pass component
+- Feed it with a material
+    - For the pass you should choose the right one, for exemple with shader graph it will be named ForwardOnly
+- Feed it with a rendering layer enabler
 
 
 ## Suggestions
